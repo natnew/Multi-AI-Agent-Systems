@@ -1,5 +1,12 @@
 # Multi-AI-Agent-Systems
-Streamlit + Multi AI Agent Systems with crewAI
+- Streamlit + Multi AI Agent Systems with crewAI
+- Multimodal Search and RAG with Weaviate
+- Agentic RAG with LlamaIndex
+- RAG with Mistral
+- Knowledge Graphs for RAG with neo4J
+- Prompt Engineering with Llama 2 & 3
+- Applications with Vector Databases with Pincone
+- LLM Apps with LangChain.js
 
 ## Get an OpenAI API key
 You can get your own OpenAI API key by following the following instructions:
