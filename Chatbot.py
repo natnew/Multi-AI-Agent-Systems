@@ -3,7 +3,7 @@ import openai
 
 
 with st.sidebar:
-    st.markdown("---")
+    
     st.markdown("# About")
     st.markdown(
        "A collection of Multi AI Agent Systems "
