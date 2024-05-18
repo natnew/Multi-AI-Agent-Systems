@@ -6,7 +6,7 @@ with st.sidebar:
     "[View the source code](https://github.com/natnew/Multi-AI-Agent-Systems/1_CrewAI.py)"
     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
 
-st.title("💬 Multi AI Agent Systems with crewAI")
+st.title("💬 Multi AI Agent Systems with CrewAI")
 uploaded_file = st.file_uploader("Upload an article", type=("txt", "md"))
 question = st.text_input(
     "Ask something about the article",
