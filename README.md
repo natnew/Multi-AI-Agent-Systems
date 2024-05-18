@@ -1,5 +1,6 @@
 # Multi-AI-Agent-Systems
-- Streamlit + Multi AI Agent Systems with crewAI
+Streamlit + 
+- Multi AI Agent Systems with crewAI
 - Multimodal Search and RAG with Weaviate
 - Agentic RAG with LlamaIndex
 - RAG with Mistral
