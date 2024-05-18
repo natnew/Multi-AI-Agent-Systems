@@ -1,6 +1,17 @@
 from openai import OpenAI
 import streamlit as st
 
+import sys
+from pathlib import Path
+
+# Add the pages directory to the sys.path
+pages_dir = Path(__file__).parent / 'pages'
+sys.path.append(str(pages_dir))
+
+import sidebar  # Import the sidebar module
+
+
+
 with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
